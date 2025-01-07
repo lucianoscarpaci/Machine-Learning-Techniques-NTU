@@ -1,0 +1,13 @@
+Optimal solution found.
+Bias (b): -9.000000174535527
+Weights (w): [ 2.00000004e+00 -2.04483870e-10]
+
+hyperplane equation is: w1z1 + w2z2 + b = 0
+b = -9.000000174535527
+w1 = 2.00000004
+w2 = -2.04483870 x 10^-10 ~ 0.0
+Substitute z2 as zero:
+w1z1 + b = 0
+z1 = -b/w1 = 4.5000000872677635
+
+Therefore, the correct conclusion is that the hyperplane equation simplifies to z1 = 4.5 when z2 is set to zero. This confirms the hyperplane at z1 = 4.5
