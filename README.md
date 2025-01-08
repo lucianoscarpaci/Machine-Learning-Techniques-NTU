@@ -1,7 +1,13 @@
 ## Machine Learning Techniques - TaiwanU
 
-This repository contains my code for the assignments in the '[Machine Learning Techniques](https://www.coursera.org/course/ntumltwo)' course from National Taiwan University on [Coursera](https://www.coursera.org/).
+This repository is based upon assignments in the '[Machine Learning Techniques](https://www.coursera.org/course/ntumltwo)' course from National Taiwan University on [Coursera](https://www.coursera.org/).
 
+DISCLAIMER:
+This code has been significantly modified and expanded for personal learning and experimentation purposes.
+This project does NOT contain official solutions and is provided AS IS.
+The intent is NOT to encourage academic dishonesty.
+This code is shared to facilitate the completion of homework assignments that require writing, running, and testing code.
+Due to my inability to be in Taiwan to obtain the starter code, GitHub is the only available source for this purpose.
 
 ### LibSVM
 In the `libsvm` folder, I put two files: `svm.h` and `svm.c`. The source of this library can be found [here](https://github.com/cjlin1/libsvm). I always put these two files along with my C++ code files and `#include "svm.h"` to use the library.
