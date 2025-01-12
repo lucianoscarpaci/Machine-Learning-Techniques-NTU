@@ -1,5 +1,4 @@
 import numpy as np
-
 # load_file
 # =========
 # load a file and get [X Y]
@@ -61,14 +60,14 @@ if __name__ == '__main__':
     X_test = train[m_train:, :-1]
     Y_test = train[m_train:, -1].astype(int)
 
-    print '----------------------------------------'
-    print '       Homework 2 Question 19, 20       '
-    print '----------------------------------------'
+    print('----------------------------------------')
+    print('       Homework 2 Question 19, 20       ')
+    print('----------------------------------------')
 
     for gamma in [32, 2, 0.125]:
         for lamb in [0.001, 1, 1000]:
-            print 'gamma  =', gamma
-            print 'lambda =', lamb
+            print('gamma  =', gamma)
+            print('lambda =', lamb)
 
             kernel = lambda x1, x2: kernel_hw2q19(x1, x2, gamma)
             
@@ -80,17 +79,15 @@ if __name__ == '__main__':
             for x in X_train:
                 prediction.append(predict(x, X_train, beta, kernel))
             prediction = np.array(prediction)
-            print 'E_in:'
-            print float(np.sum(prediction != Y_train)) / len(Y_train)
+            print('E_in:')
+            print(float(np.sum(prediction != Y_train)) / len(Y_train))
             
             prediction = []
             for x in X_test:
                 prediction.append(predict(x, X_train, beta, kernel))
             prediction = np.array(prediction)
-            print 'E_out:'
-            print float(np.sum(prediction != Y_test)) / len(Y_test)
+            print('E_out:')
+            print(float(np.sum(prediction != Y_test)) / len(Y_test))
 
-            print
-
-    plt.show()
+            print()
 
