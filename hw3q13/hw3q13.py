@@ -320,10 +320,10 @@ def hw3q17_18():
     print('avg(E_out) = %f' % np.average(test_errors))
     print
 
-    plt.figure()
-    plt.suptitle("The first random forest of C&RT's")
-    plot_train(forests[0], X_train, Y_train)
-    plt.show()
+    #plt.figure()
+    #plt.suptitle("The first random forest of C&RT's")
+    #plot_train(forests[0], X_train, Y_train)
+    #plt.show()
 
 def hw3q19_20():
     train = load_file('hw3_train.dat')
@@ -364,10 +364,10 @@ def hw3q19_20():
     print('avg(E_out) = %f' % np.average(test_errors))
     print
 
-    plt.figure()
-    plt.suptitle('The first random forest with pruned trees')
-    plot_train(forests[0], X_train, Y_train)
-    plt.show()
+    #plt.figure()
+    #plt.suptitle('The first random forest with pruned trees')
+    #plot_train(forests[0], X_train, Y_train)
+    #plt.show()
 
 if __name__ == '__main__':
     hw3q13_14_15()
