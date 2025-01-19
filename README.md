@@ -88,6 +88,14 @@ Note: in `/hw3q13/`, use
 
 will run all solutions to questions 13 - 20.
 
+## Question 19 and 20
+Experiment using sklearn and manual implementation of randomly pruned decision trees.
+You can increase the E_in and E_out by decreasing the decision trees max_depth argument and
+decreasing the amount of decision trees.
+
+run python3 hw3q19.py to see the results.
+
+
 ### Question 13 - 15
 `hw3q13_14_15()`: trains a hand-written decision tree; dumps the branches; prints out E_in and E_out; plots the trained decision boundary.
 
